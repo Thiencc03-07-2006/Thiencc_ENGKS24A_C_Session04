@@ -17,13 +17,13 @@ int main(){
 	}else if(month==2){
 		if(year%4==0&&year%100!=0||year%400==0){
 		    if(day>0&&day<30);{
-						printf("gia tri hop le");
-						return 0;
+			printf("gia tri hop le");
+			return 0;
 			}
-     	}else if(day>0&&day<29){
-     		printf("gia tri hop le");
-     		return 0;
-		    }
+     	        }else if(day>0&&day<29){
+     		        printf("gia tri hop le");
+     		        return 0;
+		}
 	}
 	printf("gia tri khong hop le");
 	return 0;
